@@ -6,6 +6,7 @@ Before you begin, ensure you have the following installed:
 - Composer (PHP package manager)
 - XAMPP (or similar local development environment)
 - Git
+- Visual Studio Code (suggested)
 
 ## Installation Steps
 
@@ -22,10 +23,15 @@ Before you begin, ensure you have the following installed:
    - Create a new database named `project_ptyxiakh`
    - Import the database schema from the `database` directory
 
-4. **Install Dependencies**
+4. **Install Dependencies - Extensions**
    ```bash
    composer install
    ```
+  - Make Sure to have these extensions Installed: 
+      PHP Intelephense
+      PHP Server
+      Composer
+      PHP
 
 5. **Configure Environment**
    - Update the database credentials in your configuration file:
@@ -46,8 +52,6 @@ Before you begin, ensure you have the following installed:
    - Access the project and right click on the home.php file and select the "PHP SERVER: Serve Project" option.
 
 ## Development
-
-
 ### Automated Tasks
 - The project includes a reminder system that can be run using `send_reminders.bat`
 
